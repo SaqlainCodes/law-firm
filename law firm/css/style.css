@@ -1,0 +1,267 @@
+*{
+    font-family: 'roboto', sans-serif;
+}   /*------------universal font-----------*/
+
+/*------------------BODY------------------*/
+body{
+    margin: 0;
+}
+
+.uni-padding{
+    padding: 0 7%;
+}
+/*------------------------HEADER-------------------------*/
+
+              /*--------------Topbar-------------*/
+#topbar{
+background-color: #576574;
+padding-top: 18px;
+padding-bottom: 18px;
+overflow: auto;
+}
+
+#social-icon{
+    float: right;
+}
+#tollfree{
+    float: left;
+    color: white;
+    margin: 0;
+}
+.fa-brands{
+    background-color: white;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+/*----------------LOGO----------------*/
+#logobar img{
+    width: 120px;
+    height: 60px;
+    margin: 25px 0px;
+}
+
+
+/*----------------NAVBAR---------------*/
+#navbar{
+    background-color: brown;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 35px;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+}
+/*------------------POSTER----------------------------*/
+
+#poster{
+    background-image: url(../images/background.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    flex-direction: column;
+
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+
+/*----------------WHY US-----------------------------*/
+#whysection{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.red-heading{
+    color: #ee5253;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0 50px 0px 50px;
+    box-sizing: border-box;
+
+}
+.section33 h2{
+    color: #ee5253;
+}
+.section33 p{
+color: #363636;
+}
+
+.section33 img{
+    width: 80px;
+    height: 60px;
+}
+
+
+/*------------------CONTACT SECTION-----------------*/
+
+#contact-container{
+    background-color: brown;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.section70{
+    width: 70%;
+    float: left;
+}
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 60px;
+}
+#contact-btn{
+    background-color: white;
+    color: #ee5253;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*-----------------------BLOG SECTION-----------------*/
+
+#containerblog h2{
+    font-weight: bold;
+ 
+}
+.blog-head{
+    text-align: center;
+    color: #ee5253;
+}
+
+.section3 img{
+    width: 200px;
+    height: 200px;
+}
+.section3 a{
+    color: #ee5253;
+    font-weight: bold;
+    text-decoration: none;
+}
+.section3{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.section3 h2{
+    color: #ee5253;
+    font-weight: bold;
+}
+
+/*------------------FOOTER----------------------------*/
+
+#imp-link{
+    background-color: #576574;
+    color: white;
+    overflow: auto;
+
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.div33 h3{
+text-decoration: underline;
+text-underline-offset: 10px;
+text-decoration-thickness: 2px;
+}
+
+#footer-link{
+ list-style-type: none;
+ padding: 0px;
+}
+
+#footer-link li{
+    padding-bottom: 10px;
+
+}
+
+#footer-link li a{
+text-decoration: none;
+color: white;
+}
+
+#footer-menu-container{ 
+    padding-left: 100px;
+}
+
+/*------------------Subscribe section----------------*/
+
+#container-sub{
+    background-color: brown;
+    overflow: auto;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.section50{
+    width: 50%;
+    float: left;
+}
+
+.section50 h2{
+    font-size: 27px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.section50 form{
+    padding-top: 25px;
+
+}
+
+.section50 input[type="text"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #ee5253;
+    margin-right: 20px;
+    border: 0px;
+    width: 45%;
+}
+
+.section50 input[type="submit"]{
+padding: 8px 35px;
+font-size: 15px;
+color: #ee5253;
+border:0px;
+    
+}
+
+
+/*------------COPYRIGHT---------*/
+#copyright{
+    background-color: #222f3e;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
